@@ -1,7 +1,7 @@
 import db from "../models/employeetabes"
 const DeptManagerTable = db.DeptManagerTable
 
-class DeptService {
+class DeptManagerService {
   getAllValues = async () => {
     const [result] = await DeptManagerTable.findAll()
     return result
@@ -17,4 +17,4 @@ class DeptService {
   }
 }
 
-export default DeptService
+export default DeptManagerService

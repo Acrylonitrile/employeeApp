@@ -17,3 +17,5 @@ class DeptController {
     return await deptService.setValues(dept_no, emp_no)
   }
 }
+
+export default DeptController
