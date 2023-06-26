@@ -20,4 +20,4 @@ class DeptEmpController {
   }
 }
 
-export default deptEmpService
+export default DeptEmpController

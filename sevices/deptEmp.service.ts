@@ -4,6 +4,7 @@ const DeptEmpTable = db.DeptEmpTable
 class DeptEmpService {
   getAllValues = async () => {
     const [result] = await DeptEmpTable.findAll()
+    console.log(result)
     return result
   }
   setValues = async (

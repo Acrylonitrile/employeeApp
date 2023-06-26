@@ -6,3 +6,5 @@ const controller = new EmployeeController()
 
 employeeRouter.get("/", controller.getAllValues)
 employeeRouter.post("/", controller.setValues)
+
+export default employeeRouter

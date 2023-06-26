@@ -1,8 +1,10 @@
 import { Router } from "express"
 import DeptController from "../controllers/dept.controller"
 
-const employeeRouter = Router()
+const deptRouter = Router()
 const controller = new DeptController()
 
-employeeRouter.get("/", controller.getAllValues)
-employeeRouter.post("/", controller.setValues)
+deptRouter.get("/", controller.getAllValues)
+deptRouter.post("/", controller.setValues)
+
+export default deptRouter
